@@ -36,8 +36,7 @@
         <td>{{$aluno->atividade}}</td>
     </tr>
 @endforeach
-
-<a href="{{ url('/form') }}"></a>
 </tbody>
 </table>
+<a href="{{ url('/form') }}">Voltar para o formulário</a>
 @endsection
