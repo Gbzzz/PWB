@@ -38,5 +38,7 @@
 @endforeach
 </tbody>
 </table>
-<a href="{{ url('/form') }}">Voltar para o formulário</a>
+<div id="botoes">
+    <button href="{{ url('/form') }}" class="button-enviar">Voltar para o formulário</button>
+</div>
 @endsection
