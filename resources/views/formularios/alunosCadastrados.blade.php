@@ -39,6 +39,6 @@
 </tbody>
 </table>
 <div id="botoes">
-    <button href="{{ url('/form') }}" class="button-enviar">Voltar para o formulário</button>
+    <a href="{{ url('/form') }}" class="button-enviar">Voltar para o formulário</a>
 </div>
 @endsection
