@@ -24,6 +24,7 @@ return array(
     'App\\Http\\Requests\\ValidarForm' => $baseDir . '/app/Http/Requests/ValidarForm.php',
     'App\\Http\\Requests\\ValidarLogin' => $baseDir . '/app/Http/Requests/ValidarLogin.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
+    'App\\Models\\alunos' => $baseDir . '/app/Models/alunos.php',
     'App\\Models\\estados_ddd' => $baseDir . '/app/Models/estados_ddd.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',

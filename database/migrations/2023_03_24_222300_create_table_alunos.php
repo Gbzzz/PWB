@@ -25,7 +25,7 @@ class CreateTableAlunos extends Migration
             $table->String('email_aluno')->unique();
             $table->String('serie');
             $table->String('turno');
-            $table->String('atividade');
+            $table->String('atividades');
         });
     }
 

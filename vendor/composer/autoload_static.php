@@ -494,6 +494,7 @@ class ComposerStaticInit36a17eea4c67fe0bb7369a01f581f5e5
         'App\\Http\\Requests\\ValidarForm' => __DIR__ . '/../..' . '/app/Http/Requests/ValidarForm.php',
         'App\\Http\\Requests\\ValidarLogin' => __DIR__ . '/../..' . '/app/Http/Requests/ValidarLogin.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Models\\alunos' => __DIR__ . '/../..' . '/app/Models/alunos.php',
         'App\\Models\\estados_ddd' => __DIR__ . '/../..' . '/app/Models/estados_ddd.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',

@@ -33,7 +33,11 @@
         <td>{{$aluno->email_aluno}}</td>
         <td>{{$aluno->serie}}</td>
         <td>{{$aluno->turno}}</td>
-        <td>{{$aluno->atividade}}</td>
+        <td>
+            @foreach(explode(',', $aluno->atividades) as $atividade)
+              {{$atividade}}<br>
+            @endforeach
+          </td>
     </tr>
 @endforeach
 </tbody>
