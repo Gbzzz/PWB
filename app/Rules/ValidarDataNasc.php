@@ -38,6 +38,6 @@ class ValidarDataNasc implements Rule
      */
     public function message()
     {
-        return 'Data Inválida';
+        return '*data de nascimento inválida.';
     }
 }

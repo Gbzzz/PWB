@@ -4,92 +4,104 @@ table, td, tr{
     margin-right: auto;
   }
 
-  td {
-    width: 20%;
-  }
+td {
+  width: 20%;
+}
 
-  th {
-    text-align: left;
-  }
+td.input{
+  text-align: left;
+}
 
-  table {
-    border:1px solid black;
-    width: 50%;
-  }
+td.title{
+  text-align: right;
+}
 
-  h1{
-    text-align: center;
+td.error {
+  width: 12%;
+}
 
-  }
+label {
+  margin-right: 10px;
+  font-size: 18px;
+}
 
-  h2{
-    text-align: center;
-  }
+label.error { 
+  color: red;
+  font-size: 15px;
+  font-weight: normal;
+}
 
-  h3 {
-    margin-top: 5px;
-    margin-left: 10px;
-  }
+th {
+  text-align: left;
+}
 
-  button{
-    margin: 2px;
-    width: 125px;
-    display: center;
-  }
+table {
+  border:1px solid black;
+  width: 60%;
+}
 
-  #dadosPessoais{
-    border-radius: 5px;
-    background-color: #ffffff;
-    padding: 5px;
-    text-align: center;
-    font: normal, 18px, Arial;
-  }
+h1{
+  text-align: center;
+}
 
-  #serie{
-    border-radius: 5px;
-    background-color: #ffffff;
-    padding: 5px;
-    text-align: left;
-    font: normal, 18px, Arial;
-  }
+h2{
+  text-align: center;
+}
 
-  #turno{
-    border-radius: 5px;
-    background-color: #ffffff;
-    padding: 5px;
-    text-align: left;
-    font: normal, 18px, Arial;
-  }
+h3 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
 
-  #atividadesExtra{
-    border-radius: 5px;
-    background-color: #ffffff;
-    padding: 5px;
-    text-align: left;
-    font: normal, 18px, Arial;
-  }
+button{
+  margin: 2px;
+  width: 125px;
+  display: center;
+}
 
-  input[type=text],
-  [type=tel],
-  [type=email],
-  [type=date],
-  select {
-    width: 30%;
-    padding: 10px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    border-radius: 12px;
-  }
+#serie{
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 5px;
+  text-align: left;
+  font: normal, 18px, Arial;
+}
+
+#turno{
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 5px;
+  text-align: left;
+  font: normal, 18px, Arial;
+}
+
+#atividadesExtra{
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 5px;
+  text-align: left;
+  font: normal, 18px, Arial;
+}
+
+input[type=text],
+[type=tel],
+[type=email],
+[type=date],
+select {
+  width:60%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
 
 #ddd{
-    width: 8%;
-    padding: 10px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+    width: 15%;
+    padding: 10px 18px;
+    margin-right: 8px;
+    border: 1px solid #000000;
   }
 
 #botoes {

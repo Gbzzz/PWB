@@ -35,6 +35,6 @@ class ValidarNome implements Rule
      */
     public function message()
     {
-        return 'Por favor, insira o nome completo';
+        return '*insira o nome completo.';
     }
 }

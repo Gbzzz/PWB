@@ -113,7 +113,7 @@ return [
     ],
     'present'              => 'O campo :attribute deve estar presente.',
     'regex'                => 'O campo :attribute tem um formato inválido.',
-    'required'             => '*:attribute é obrigatório*',
+    'required'             => '*:attribute é obrigatório.',
     'required_array_keys'  => 'O campo :attribute deve conter entradas para: :values.',
     'required_if'          => 'O campo :attribute é obrigatório quando :other for :value.',
     'required_unless'      => 'O campo :attribute é obrigatório exceto quando :other for :values.',

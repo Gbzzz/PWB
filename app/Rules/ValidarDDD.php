@@ -48,6 +48,6 @@ class ValidarDDD implements Rule
      */
     public function message()
     {
-        return 'DDD Inválido';
+        return '*ddd inválido.';
     }
 }

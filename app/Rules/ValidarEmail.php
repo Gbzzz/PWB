@@ -35,6 +35,6 @@ class ValidarEmail implements Rule
      */
     public function message()
     {
-        return '*Formato de E-mail inválido, adicione .com *';
+        return '*formato de e-mail inválido.';
     }
 }

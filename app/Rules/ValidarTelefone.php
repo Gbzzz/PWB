@@ -35,6 +35,6 @@ class ValidarTelefone implements Rule
      */
     public function message()
     {
-        return 'Formato Inválido de Número';
+        return '*formato inválido de telefone.';
     }
 }

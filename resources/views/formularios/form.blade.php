@@ -14,44 +14,64 @@
                     <th><h3>Dados Pessoais:</h3></th>
                 </tr>
                 <tr>
-                <td>
-                    <div id="dadosPessoais">
-                        Nome do Aluno: <input type="text" name="nome_aluno" value="{{ old('nome_aluno') }}" class="@error('nome_aluno') is-invalid @enderror"> <br>
+                    <td class="title"><label>Nome do Aluno: </label></td>
+                    <td class="input"><input type="text" name="nome_aluno" value="{{ old('nome_aluno') }}" class="@error('nome_aluno') is-invalid @enderror"></td>
+                    <td class="error">
                         @error('nome_aluno')
-                            <div>
-                                {{ $message }}
-                            </div>
+                        <label class="error">{{ $message }}</label>
                         @enderror
-                        Nascimento: <input type="date" name="nascimento_aluno" value="{{ old('nascimento_aluno') }}" class="@error('nascimento_aluno') is-invalid @enderror"> <br>
+                    </td>
+                <tr>
+                    <td class="title"><label>Nascimento:</label></td>
+                    <td class="input"><input type="date" name="nascimento_aluno" value="{{ old('nascimento_aluno') }}" class="@error('nascimento_aluno') is-invalid @enderror"></td>
+                    <td class="error">
                         @error('nascimento_aluno')
-                            <div>
-                                {{ $message }}
-                            </div>
+                        <label class="error">{{ $message }}</label>
                         @enderror
-                        Nome da Mãe: <input type="text" name="nome_mae" value="{{ old('nome_mae') }}" class="@error('nome_mae') is-invalid @enderror" class="inputs"> <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title"><label>Nome da Mãe:</label></td>
+                    <td class="input"><input type="text" name="nome_mae" value="{{ old('nome_mae') }}" class="@error('nome_mae') is-invalid @enderror" class="inputs"> <br></td>
+                    <td class="error">
                         @error('nome_mae')
-                            <div>
-                                {{ $message }}
-                            </div>
+                        <label class="error">{{ $message }}</label>
                         @enderror
-                        Nome do Pai: <input type="text" name="nome_pai" value="{{ old('nome_pai') }}" class="@error('nome_pai') is-invalid @enderror"> <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title"><label>Nome do pai:</label></td>
+                    <td class="input"><input type="text" name="nome_pai" value="{{ old('nome_pai') }}" class="@error('nome_pai') is-invalid @enderror"></td>
+                    <td class="error">
                         @error('nome_pai')
-                            <div>
-                                {{ $message }}
-                            </div>
+                        <label class="error">{{ $message }}</label>
                         @enderror
-                        Telefone: (DDD) <input type="text" name="ddd" id="ddd" maxlength="2" value="{{ old('ddd') }}" class="@error('ddd') is-invalid @enderror"> Tel: <input type="tel" name="telefone" maxlength="10" value="{{ old('telefone') }}" class="@error('telefone') is-invalid @enderror"> <small>Formato: 9XXXX-XXXX</small> <br>
-                        @error('ddd') <div> {{ $message }} </div> @enderror @error('telefone') <div> {{ $message }} </div> @enderror
-                        E-mail: <input type="email" name="email_aluno" value="{{ old('email_aluno') }}" class="@error('email_aluno') is-invalid @enderror">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title"><label>Telefone:</label> <input type="text" name="ddd" id="ddd" maxlength="2" value="{{ old('ddd') }}" class="@error('ddd') is-invalid @enderror"></td>
+                    <td class="input"><input type="tel" name="telefone" maxlength="10" value="{{ old('telefone') }}" class="@error('telefone') is-invalid @enderror"> <small>Formato: 9XXXX-XXXX</small></td>
+                    <td class="error">
+                        @error('ddd')
+                        <label class="error">{{ $message }}</label>
+                        @enderror
+                        <br>
+                        @error('telefone')
+                        <label class="error">{{ $message }}</label>
+                        @enderror
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title"><label>E-mail:</label></td>
+                    <td class="input"><input type="text" name="email_aluno" value="{{ old('email_aluno') }}" class="@error('email_aluno') is-invalid @enderror"></td>
+                    <td class="error">
                         @error('email_aluno')
-                            <div>
-                                {{ $message }}
-                            </div>
+                        <label class="error">{{ $message }}</label>
                         @enderror
-                    </div>
-                </td>
+                    </td>
                 </tr>
             </table>
+
             <table>
                 <tr>
                     <th><h3>Informações de Matrícula:</h3></th>
