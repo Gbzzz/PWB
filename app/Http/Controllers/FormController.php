@@ -32,9 +32,8 @@ class FormController extends Controller
             }
             $aluno->atividades = $atividade;
             $aluno->save();
-            $todosAlunos = Alunos::get();
+            $todosAlunos = alunos::get();
             return view('formularios.alunosCadastrados', compact('todosAlunos'));
         };
     }
-
 }

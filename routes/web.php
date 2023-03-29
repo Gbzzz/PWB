@@ -30,3 +30,5 @@ Route::get('/trocarSenha', [LoginController::class, 'trocarSenha']);
 Route::get('/form', [FormController::class, 'index']);
 
 Route::post('/validar', [FormController::class, 'validar']);
+
+Route::get('/alunosCAD', [FormController::class, 'list']);
