@@ -109,7 +109,7 @@
             </table>
             <div id="botoes">
             <button type="submit" class="button-enviar">Enviar Formulário</button>
-            <button href="{{ url('/form') }}" type="reset" class="button-limpar">Limpar Campos</button>
+            <button href="{{ url('/') }}" type="reset" class="button-limpar">Limpar Campos</button>
             </div>
         </form>
 

@@ -14,20 +14,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-// Rotas da Parte de Login e Cadastro
-Route::get('/', [LoginController::class, 'index']);
-
-Route::get('/criarConta', [LoginController::class, 'criarConta']);
-
-Route::post('/validarCadastro', [LoginController::class, 'store']);
-
-Route::post('/validarLogin', [LoginController::class, 'login']);
-
-Route::get('/trocarSenha', [LoginController::class, 'trocarSenha']);
-
 
 // Rotas da parte do Formulário
-Route::get('/form', [FormController::class, 'index']);
+Route::get('/', [FormController::class, 'index']);
 
 Route::post('/validar', [FormController::class, 'validar']);
 
